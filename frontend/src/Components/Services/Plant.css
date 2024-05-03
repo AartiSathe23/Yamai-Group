@@ -1,0 +1,218 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  .topimage {
+    padding: 80px; 
+    width: 102.3%; 
+    height: 230px; 
+    position: relative;
+    margin-left: -100px;
+    margin-top: -63px;
+  }
+  
+  .topimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Components/Assets/pageconstruction.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; 
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+  
+  .topimage .heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  
+  .topimage .heading h2 {
+    font-size: 70px;
+    color: white;
+    margin-left: -10px;
+    margin-bottom: 220px;
+  }
+  
+  .topimage .para {
+    position: absolute;
+    bottom: 80px; 
+    left: 35%;
+    transform: translateX(-30%);
+    text-align: center;
+    max-width: 80%; 
+  }
+  
+  .topimage .para p{
+    font-size: 25px;
+    color: aliceblue;
+    margin: 0;
+  }
+
+  .plantcontent {
+    display: flex;
+    align-items: center;
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 50px;
+  }
+
+  .hr{
+    display: flex;
+    flex-direction: row;
+  }
+  .hr hr{
+      padding: 0;
+      margin: 0;
+  }
+  .yellow{
+      background-color: yellow;
+  }
+  .blue{
+      background-color: #3a1d5c;
+  }
+  
+  .content-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .content-text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px; 
+    color: #333; 
+    margin-bottom: 10px; 
+  }
+  
+  .content-text p {
+    font-size: 16px; 
+    color: #666;
+    line-height: 24px; 
+    margin-bottom: 10px;
+  }
+  
+  .contentimage {
+    margin-left: 80px; /* Add space between text and image */
+  }
+  
+  .contentimage img {
+    max-width: 550px; 
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  .plantprocess {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .plantimage {
+    width: 1100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  */
+  }
+
+  .plantservice {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.service1 {
+  width: 340px;
+  height: 300px; /* Fixed height */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  background-color: #f4f4f4; /* Light gray background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.service1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service1 h3 {
+    font-size: 24px;
+    color: #333; /* Dark gray */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    
+}
+
+.service1 p {
+    font-size: 16px;
+    color: #666; /* Medium gray */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.MuiSvgIcon-root {
+  /* Add your CSS properties here */
+  /* For example: */
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.service1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 5px;
+    background-color: #ff6b6b; /* Coral pink */
+    border-radius: 10px;
+    display: none;
+}
+
+.service1:hover:before {
+    display: block;
+}
+
+.service1 ul {
+  margin-top: 20px; /* Add space between heading and list */
+  text-align: left; /* Align list items to the left */
+}
+
+.service1 ul li {
+  font-size: 16px;
+  color: #666; /* Medium gray */
+  margin-bottom: 5px;
+}
+
+
+/* #f07810 orange */
+/* #240747 dark blue */
+/* #dddddd light blue */
+/* #333 dark gray */
+/* #7fa99b middle blue */

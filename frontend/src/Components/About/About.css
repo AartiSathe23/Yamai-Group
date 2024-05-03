@@ -1,0 +1,332 @@
+.aboutcompany {
+  width: 1200px;
+  padding: 0 120px 20px 160px;
+}
+
+.aboutcompany .aboutcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.aboutimage {
+  background-image: url('../../Components/Assets/road1.jpg');
+  background-size: cover; 
+  background-position: center; 
+  padding: 80px; 
+  text-align: center;
+  width: 113%; 
+  height: 532px; 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* margin-left: 90px ; */
+}
+
+.aboutimage .centered {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;  */
+  align-items: center;
+}
+
+.aboutimage h2 {
+  font-size: 75px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.aboutimage p {
+  font-size: 20px;
+  color: #dde0ab;
+  margin-bottom: 20px;
+}
+
+.aboutmission {
+  display: flex;
+  align-items: center;
+  width: 113%;
+  justify-content: center;
+  margin-right: 50px;
+  /* margin: 0 auto; */
+}
+
+.missioncontent {
+  max-width: 70%; 
+  margin-right: 60;
+}
+
+.missioncontent h3 {
+  font-size: 60px; 
+  /* margin-bottom: 20px;  */
+}
+
+.missioncontent p {
+  font-size: 16px;
+  line-height: 1.5; 
+}
+
+.missionimage {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 50px;
+}
+
+.missionimage .img2 {
+  max-width: 530px;
+  border-radius: 10px;
+  margin-bottom: 20px; 
+}
+
+.img3-container {
+  display: flex;
+  justify-content: space-between; 
+  width: 530; 
+  height: 210px;
+}
+
+.missionimage .img3 {
+  width: calc(50% - 10px);
+  border-radius: 10px;
+}
+
+.aboutvision {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 1518px;
+  margin-top: 50px;
+}
+
+.visioncontent {
+  flex: 1;
+  background-color: #dde0ab;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.visioncontent h3 {
+  font-size: 60px; 
+  margin-bottom: 20px; 
+}
+
+.visioncontent p {
+  font-size: 16px;
+  line-height: 1.5; 
+}
+
+.visionimage {
+  margin-top: 50px;
+  max-width: 50%;
+  position: relative; 
+}
+
+.visionimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutgoal {
+  display: flex;
+  align-items: stretch; 
+  justify-content: space-around; 
+  width: 110%;
+  margin-top: 40px;
+}
+
+.aboutgoal .container {
+  border: 3px solid #c7b198; 
+  border-radius: 10px; 
+  padding: 20px; 
+  text-align: center;
+  width: calc(33.33% - 20px); 
+  margin: 0 10px; 
+  transition: .5s ease;
+}
+
+.aboutgoal .container:hover {
+  border-color: #be3144;
+  transform: scale(1.06);
+}
+
+.aboutgoal .container h4 {
+  font-size: 24px; 
+  margin-bottom: 10px;
+  color: #be3144;
+}
+
+.aboutgoal .container p {
+  font-size: 16px; 
+  line-height: 1.5;
+}
+
+.aboutservices {
+  display: flex;
+  align-items: center;
+  width: 113%;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.servicescontent {
+  max-width: 70%; 
+  margin-right: 80px;
+}
+
+.servicescontent h3 {
+  font-size: 60px; 
+  /* margin-bottom: 20px;  */
+}
+
+.servicesimage {
+  display: flex;
+  flex-direction: column; 
+  /* align-items: center; */
+  margin-top: 100px;
+  padding: 10px;
+  position: absolute; /* Fixed position to keep it stable */
+  right: 110px; 
+  top: 2450px; 
+}
+
+.servicesimage img {
+  max-width: 480px;
+  border-radius: 10px;
+  margin-bottom: 10px; 
+  margin-left: 55px;
+}
+
+.expendable-button {
+  background-color: transparent;
+  color: #393e46;
+  gap: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  width: 2px;
+  margin-right: 10px;
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 500px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 540px;
+}
+
+.underline {
+  width: 100%;
+  height: 0.15rem;
+  background: #c7b198;
+  margin: 20px auto;
+}
+.column-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.column-text{
+  color: #004445;
+}
+
+.column-container:hover .expendable-button,
+.column-container:hover .column-text {
+  /* Your hover styles here */
+  color: #e8751a;
+}
+
+
+/* .column-container:hover {
+  background-color: beige;
+  width: 100%;
+} */
+
+.text-container {
+  font-size: 16px;
+  text-align: left;
+  max-height: 350px;
+  opacity: 1;
+  color: #a7b99e;
+  animation-name: textanimate;
+  animation-duration: 2s;
+}
+
+@keyframes textanimate {
+  0% {
+    opacity: 0;
+    max-height: 15px;
+  }
+  100% {
+    opacity: 1;
+    max-height: 350px;
+  }
+}
+
+.aboutimp {
+  display: flex;
+  align-items: stretch; 
+  justify-content: space-around; 
+  width: 126%;
+  height: 460px;
+  margin-top: 80px;
+  background-color: #a7b99e;
+}
+
+.aboutimp .imp2,
+.aboutimp .imp3 {
+  width: 400px;
+  height: 360px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8751a;
+  text-align: start; 
+  padding: 30px
+}
+
+.aboutimp .imp1 {
+  width: 400px;
+  height: 360px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8751a;
+  padding: 30px
+}
+
+.aboutimp h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.aboutimp .bullet {
+  font-size: 16px; /* Adjust the font size of bullet points */
+}
+
+.aboutimp p {
+  font-size: 16px;
+}
+
+.imp3 p{
+  margin-bottom: 50px;
+}
+
+.imp3 .info  {
+  display: flex;
+  gap: 2rem;
+}
+
+
+

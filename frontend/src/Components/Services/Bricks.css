@@ -1,0 +1,247 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.topimage {
+  padding: 80px; 
+  width: 102.3%; 
+  height: 230px; 
+  position: relative;
+  margin-left: -100px;
+  margin-top: -63px;
+}
+
+.topimage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../Components/Assets/pageconstruction.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.topimage .heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.topimage .heading h2 {
+  font-size: 70px;
+  color: white;
+  margin-left: -10px;
+  margin-bottom: 220px;
+}
+
+.topimage .para {
+  position: absolute;
+  bottom: 80px; 
+  left: 35%;
+  transform: translateX(-30%);
+  text-align: center;
+  max-width: 80%; 
+}
+
+.topimage .para p{
+  font-size: 25px;
+  color: aliceblue;
+  margin: 0;
+}
+
+
+
+hr{
+    width: 400px;
+	height: 5px;
+	background-color: #797676;
+	border: 0;
+	margin-bottom: 50px;
+}
+.packages {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  background-color: #e2e0e0;
+	padding: 60px 80px;
+}
+.packages:not(.hero):nth-child(even) {
+	background-color: #f5f5f5;
+}
+.packages h3{
+        font-size: xx-large;
+        font-weight: 600;
+
+}
+.packages p {
+	max-width: 985px;
+	line-height: 2;
+  font-size: large;
+	padding: 0 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-between; /* Distribute items evenly */
+  max-width: 1200px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.grid li {
+  width: calc(50% - 50px); /* Set width for two columns with margin */
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.icon {
+	color: #e07e7b;
+}
+
+.packages .grid li h4 {
+	font-size: 30px;
+	margin: 20px 0;
+}
+
+@media (max-width: 800px) {
+	.packages .grid li {
+		flex-basis: 100%;
+		padding: 20px;
+	}
+}
+@keyframes grow {
+    from { transform: scale(0.5); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  
+  .info-container .heading h1 {
+    animation: grow 4s ease-in-out infinite;
+  }
+  
+  @keyframes drift {
+    0% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(5px);
+    }
+  }
+  
+  
+.info-container {
+    background-color: #4e4747; 
+    background-image: linear-gradient(to bottom right, #f0f0f0, #ffffff); 
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 40px;
+  
+   
+    animation: drift 10s infinite alternate linear;
+  }
+  
+ 
+  .info-container .heading h1 {
+    color: #333; 
+    text-align: center;
+  }
+  
+  
+  .hr-nine {
+    border: 0;
+    height: 7px;
+    background-image: linear-gradient(to right, transparent, #2c662d, #5f6a5f);
+    margin: 10px 450px; 
+  }
+  
+
+  .info-container .extra-info {
+    text-align: justify; 
+    line-height: 1.6;
+    font-size: 20px; 
+    text-wrap: stable;
+    width: fit-content;
+    margin: 40px;
+    color: #666;
+  }
+
+
+  .extra-info span{
+    font-size: 27px;
+  }
+
+  .heading-title{
+    font-size: xx-large;
+    font-weight: 900;
+  }
+
+  .heading-title h2{
+    color: #333;
+    font-size: 40px;
+  }
+
+  .product-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    height: 400px;
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+   
+
+  }
+  .divider{
+    margin-top: 40px;
+    width: 1000px;
+    height: 2px;
+    background-image: linear-gradient();
+    
+  }
+
+  .theory{
+    padding: 30px 0px;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    text-wrap: balance;
+    background-color: #7fa99b;
+    border: 20px  linear-gradient(to bottom , #cccccc,#5f6a5f);;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+
+  }
+  
+  .theory h1{
+    font-size: xx-large;
+    font-weight: 900;
+  }
+  .theory p{
+    font-size: large;
+  }
+  

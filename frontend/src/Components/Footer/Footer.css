@@ -1,0 +1,266 @@
+/* Apply styles to the footer element */
+.footer {
+  background-color: #dddddd;
+  border-top-left-radius:125px;
+  border-top-right-radius: 125px;
+}
+
+.footersection-padding {
+  padding: 40px; /* Adjust as needed */
+}
+
+.footerlinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerlinksdiv {
+  width: 33.33%; /* Each section takes 1/3 of the width */
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.material-symbols-outlined {
+  font-size: 40px; /* Adjust the icon size */
+  margin-right: 10px;
+  color: #240747;
+}
+
+.address p {
+  font-size: 15px;
+  color: #240747;
+}
+
+.contactfooter {
+  margin-top: 72px;
+  margin-left: -90px;
+}
+
+.footerlinksdiv h3 {
+  width:250px;
+  font-size: xx-large;
+  font-weight: 500;
+  margin-bottom:0 ;
+  color: #240747;
+}
+
+.mailing {
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+
+.mailing input[type="text"] {
+  border: none;
+  width: 400px;
+  border-bottom: 1px solid black; /* Add underline */
+  outline: none; /* Remove default input focus outline */
+  display: block; /* Display inputs as block elements */
+  margin-bottom: 10px; /* Add some vertical space between inputs */
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+
+}
+
+.follow img {
+  width: 30px; 
+  height: auto; 
+  margin-right: 10px;
+  
+}
+
+.explorepg ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.explorepg ul a {
+  display: block;
+  text-decoration: none;
+  color: #240747;
+  margin-bottom: 10px; 
+}
+
+.explorepg h3 {
+  font-size: xx-large;
+  font-weight: 500;
+  margin-bottom:0 ;
+  color: #240747;
+}
+
+.copyright img {
+  width: 100px;
+   /* Adjust as needed */
+}
+.copyright {
+  align-self: flex-end; /* Align the div to the left side of the footer */
+  margin-left: 20px; /* Adjust margin as needed */
+}
+.mailing h3{
+  font-size: xx-large;
+  font-weight: 500;
+  margin-bottom:0 ;
+  color: #240747;
+}
+.map-link{
+    display: block;
+    width: 100%;
+    height: 100%;
+  
+  
+}
+
+
+.btn4.btn-border-3::after,
+.btn4.btn-border-3::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+
+.btn4.btn-border-3::after {
+    top: -9px;
+    left: -9px;
+    border-top: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+
+.btn4.btn-border-3::before {
+    bottom: -9px;
+    right: -9px;
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+.btn4.btn-border-3:hover {
+    color: #222222;
+}
+
+.btn4.btn-border-3:hover::after,
+.btn4.btn-border-3:hover::before {
+    width: 30px;
+    height: 30px;
+    border-color: #222222;
+}
+.btn4 {
+  position: relative;
+  display: inline-block;
+  /* margin: 1px; */
+  padding: 12px 27px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #240747;
+  background: #ffffff;
+  border: 3px solid #999999;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+}
+.container {
+  /* margin: 0 auto; */
+  /* width: 100%; */
+  text-align: center;
+  font-size: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  /* background: #ffffff; */
+}
+
+.custom-field {
+  position: relative;
+  font-size: 15px;
+  border-top: 20px solid transparent;
+  margin-bottom: 5px;
+  display: inline-block;
+  --field-padding: 12px;
+}
+
+.custom-field input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: var(--field-padding);
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
+  font-size: 15px;
+}
+
+.custom-field .placeholder {
+  position: absolute;
+  left: var(--field-padding);
+  width: calc(100% - (var(--field-padding) * 2));
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 22px;
+  line-height: 100%;
+  transform: translateY(-50%);
+  color: #aaa;
+  transition: 
+    top 0.3s ease,
+    color 0.3s ease,
+    font-size 0.3s ease;
+}
+
+.custom-field input.dirty + .placeholder,
+.custom-field input:focus + .placeholder,
+.custom-field input:not(:placeholder-shown) + .placeholder {
+  top: -10px;
+  font-size: 15px;
+  color: #222;
+}
+.custom-field.one input {
+  background: none;
+  border: 2px solid black;
+  transition: border-color 0.3s ease;
+}
+
+.custom-field.one input + .placeholder {
+  left: 8px;
+  padding: 0 5px;
+}
+
+.custom-field.one input.dirty,
+.custom-field.one input:not(:placeholder-shown),
+.custom-field.one input:focus {
+  border-color: #222;
+  transition-delay: 0.1s
+}
+
+.custom-field.one input.dirty + .placeholder,
+.custom-field.one input:not(:placeholder-shown) + .placeholder,
+.custom-field.one input:focus + .placeholder {
+  top: 0;
+  font-size: 10px;
+  color: #222;
+  background: #fff;
+  width: auto
+}
+
+.copyright p {
+  font-size: 14px;
+  color: #240747;
+  margin: 0;
+  text-align: center;
+}
+
+.explorepg .pages a:hover {
+  color: #FF5733; /* Change the color to your desired hover color */
+  text-decoration: underline; /* Underline the link on hover */
+}

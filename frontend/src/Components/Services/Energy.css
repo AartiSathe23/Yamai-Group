@@ -1,0 +1,325 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  .topimage {
+    padding: 80px; 
+    width: 102.3%; 
+    height: 230px; 
+    position: relative;
+    margin-left: -100px;
+    margin-top: -63px;
+  }
+  
+  .topimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Components/Assets/pageconstruction.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; 
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+  
+  .topimage .heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  
+  .topimage .heading h2 {
+    font-size: 70px;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 220px;
+  }
+  
+  .topimage .para {
+    position: absolute;
+    bottom: 80px; 
+    left: 37%;
+    transform: translateX(-30%);
+    text-align: center;
+    max-width: 80%; 
+  }
+  
+  .topimage .para p{
+    font-size: 25px;
+    color: aliceblue;
+    margin: 0;
+  }
+
+  
+.content {
+    display: flex;
+    margin-top: 70px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.image-container img {
+    width: calc(100% - 10px);
+    max-height: 250px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    flex: 1;
+    padding: 0 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+.text-content h3 {
+    margin-top: 50px; 
+    font-size: 40px; 
+}
+
+.text-content h3 span {
+    color: #333;
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.text-content p {
+    margin-bottom: 0;
+    font-size: 16.9px;
+}
+
+.flowchart {
+    margin-top: 60px; 
+    text-align: center; 
+}
+
+.flowchart img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.energyaccordion {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    max-height: 700px;
+}
+
+.accordioncontent {
+    max-width: 45%; 
+    margin: 30px;
+    /* overflow: hidden;  */
+    max-height: 400px; /* Set a fixed height */
+    transition: max-height 0.3s ease; /* Add transition for smooth animation */
+    margin-bottom: 50px;
+}
+
+/* .expendable-button.expanded + .accordioncontent {
+    max-height: 1000px; 
+} */
+
+.accordionimage {
+    /* flex: 1;  */
+    display: flex;
+    max-width: 45%; 
+    margin: 30px;
+    /* position: absolute; */
+    flex-direction: column; 
+}
+
+.accordionimage img {
+    max-width: 100%; 
+}
+
+.accordionimage h3 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #333;
+}
+
+.accordionimage p {
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.6; /* Adjust line height for better readability */
+    color: #333; /* Set text color */
+    margin-bottom: 15px; /* Add bottom margin for spacing between paragraphs */
+}
+
+.expendable-button {
+    background-color: transparent;
+    color: #393e46;
+    gap: 8px;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    width: 2px;
+    margin-right: 10px;
+  }
+  
+  .accordion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 10px;
+    /* margin-right: 540px; */
+  }
+  
+  .underline {
+    width: 100%;
+    height: 0.15rem;
+    background: #c7b198;
+    margin: 20px auto;
+  }
+  .column-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .column-text{
+    color: #004445;
+  }
+  
+  .column-container:hover .expendable-button,
+  .column-container:hover .column-text {
+    /* Your hover styles here */
+    color: #e8751a;
+  }
+  
+  
+  /* .column-container:hover {
+    background-color: beige;
+    width: 100%;
+  } */
+  
+  .text-container {
+    font-size: 16px;
+    text-align: left;
+    max-height: 350px;
+    opacity: 1;
+    color: #a7b99e;
+    animation-name: textanimate;
+    animation-duration: 2s;
+  }
+  
+  @keyframes textanimate {
+    0% {
+      opacity: 0;
+      max-height: 15px;
+    }
+    100% {
+      opacity: 1;
+      max-height: 350px;
+    }
+  }
+
+  .energyservice {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 150px;
+
+}
+
+.service {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    background-color: #f4f4f4; /* Light gray background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service h3 {
+    font-size: 24px;
+    color: #333; /* Dark gray */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #666; /* Medium gray */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.service-icon {
+    font-size: 36px;
+    color: #ff6b6b; /* Coral pink */
+    margin-bottom: 20px;
+}
+
+.service:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 5px;
+    background-color: #ff6b6b; /* Coral pink */
+    border-radius: 10px;
+    display: none;
+}
+
+.service:hover:before {
+    display: block;
+}
+
+.energycontact {
+    height: 60px;
+    width: 113.7%;
+    background-color: #7fa99b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -92px;
+    margin-top: 40px;
+}
+
+.contact-para {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
