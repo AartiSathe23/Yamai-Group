@@ -54,44 +54,44 @@ The Yamai Group of Construction website is designed to provide a modern and prof
 
 1. **Home Page**
    
-    <img src="frontend/src/Components/Assets/hp1.png" alt="Home Page 1" width="400" height="200">
+    <img src="frontend/src/Components/Assets/hp1.png" alt="Home Page 1" width="370" height="200">
   
-    <img src="frontend/src/Components/Assets/hp2.png" alt="Home Page 2" width="400" height="200">
+    <img src="frontend/src/Components/Assets/hp2.png" alt="Home Page 2" width="370" height="200">
   
-    <img src="frontend/src/Components/Assets/hp3.png" alt="Home Page 3" width="400" height="200">
+    <img src="frontend/src/Components/Assets/hp3.png" alt="Home Page 3" width="370" height="200">
   
-    <img src="frontend/src/Components/Assets/hp4.png" alt="Home Page 5" width="400" height="200">
+    <img src="frontend/src/Components/Assets/hp4.png" alt="Home Page 5" width="370" height="200">
     
 2. **About Us**  
   
-    <img src="frontend/src/Components/Assets/au1.png" alt="Home Page 3" width="400" height="200">
+    <img src="frontend/src/Components/Assets/au1.png" alt="Home Page 3" width="370" height="200">
   
-    <img src="frontend/src/Components/Assets/au2.png" alt="Home Page 5" width="400" height="200">
+    <img src="frontend/src/Components/Assets/au2.png" alt="Home Page 5" width="370" height="200">
 
-    <img src="frontend/src/Components/Assets/au3.png" alt="Home Page 3" width="400" height="200">
+    <img src="frontend/src/Components/Assets/au3.png" alt="Home Page 3" width="370" height="200">
   
-    <img src="frontend/src/Components/Assets/au4.png" alt="Home Page 5" width="400" height="200">
+    <img src="frontend/src/Components/Assets/au4.png" alt="Home Page 5" width="370" height="200">
     
 3. **Services**  
   
-    <img src="frontend/src/Components/Assets/c1.png" alt="Home Page 3" width="400" height="200">
+    <img src="frontend/src/Components/Assets/c1.png" alt="Home Page 3" width="370" height="200">
   
-    <img src="frontend/src/Components/Assets/c2.png" alt="Home Page 5" width="400" height="200">
+    <img src="frontend/src/Components/Assets/c2.png" alt="Home Page 5" width="370" height="200">
 
-    <img src="frontend/src/Components/Assets/c3.png" alt="Home Page 3" width="400" height="200">
+    <img src="frontend/src/Components/Assets/c3.png" alt="Home Page 3" width="370" height="200">
   
-    <img src="frontend/src/Components/Assets/c4.png" alt="Home Page 5" width="400" height="200">
+    <img src="frontend/src/Components/Assets/c4.png" alt="Home Page 5" width="370" height="200">
 
-    <img src="frontend/src/Components/Assets/c5.png" alt="Home Page 3" width="400" height="200">
+    <img src="frontend/src/Components/Assets/c5.png" alt="Home Page 3" width="370" height="200">
   
-    <img src="frontend/src/Components/Assets/c6.png" alt="Home Page 5" width="400" height="200">
+    <img src="frontend/src/Components/Assets/c6.png" alt="Home Page 5" width="370" height="200">
     
 4. **Contact Us**  
   
-    <img src="frontend/src/Components/Assets/cu1.png" alt="Home Page 3" width="400" height="200">
+    <img src="frontend/src/Components/Assets/cu1.png" alt="Home Page 3" width="370" height="200">
   
-    <img src="frontend/src/Components/Assets/cu2.png" alt="Home Page 5" width="400" height="200">
+    <img src="frontend/src/Components/Assets/cu2.png" alt="Home Page 5" width="370" height="200">
 
-    <img src="frontend/src/Components/Assets/cu3.png" alt="Home Page 3" width="400" height="200">
+    <img src="frontend/src/Components/Assets/cu3.png" alt="Home Page 3" width="370" height="200">
 
      
